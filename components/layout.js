@@ -8,6 +8,7 @@ export default function Layout({ preview, children }) {
       <Meta />
       <div className="min-h-screen">
         <NavBar preview={preview} />
+        
         <main>{children}</main>
       </div>
       <Footer />

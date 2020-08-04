@@ -14,7 +14,7 @@
 
 # production
 /build
-
+/feature-add-ons
 # misc
 .DS_Store
 

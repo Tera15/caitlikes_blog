@@ -12,9 +12,9 @@ export default function AllPosts({ preview, allPosts }) {
     return (
       <>
         <Layout preview={preview}>
-          <Head>
-            <title>Next.js Blog Example with {CMS_NAME}</title>
-          </Head>
+        <Head>
+            <title>Caitlikes</title>
+        </Head>
           <Container>
             <MoreStories posts={allPosts}/>
           </Container>

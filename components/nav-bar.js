@@ -18,9 +18,9 @@ export default function NavBar() {
         <a href="/all-posts" className="block mt-4 lg:inline-block lg:mt-0  hover:text-white mr-4">
           Blog Posts
         </a>
-        <a href="/music" className="block mt-4 lg:inline-block lg:mt-0  hover:text-white mr-4">
+        {/* <a href="/music" className="block mt-4 lg:inline-block lg:mt-0  hover:text-white mr-4">
           Music
-        </a>
+        </a> */}
       </div>
     </div>
   </nav>
