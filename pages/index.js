@@ -30,9 +30,11 @@ export default function Index({ preview, allPosts }) {
               excerpt={heroPost.excerpt}
             />
           )}
-          <h2 className='mb-2'>Recent posts</h2>
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+        
         </Container>
+        <div className='bg-pink-100'>
+          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          </div>
         <Intro />
       </Layout>
     </>

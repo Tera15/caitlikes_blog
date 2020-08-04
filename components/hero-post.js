@@ -17,7 +17,7 @@ export default function HeroPost({
         <CoverImage title={title} slug={slug} url={coverImage.url} />
       </div>
       <div className="md:grid md:grid-cols-2 md:col-gap-16 lg:col-gap-8 mb-20 md:mb-28">
-        <div className='bg-pink-100 p-5'>
+        <div className='bg-pink-200 p-5'>
           <h3 className="mb-4 text-4xl lg:text-6xl leading-tight">
             <Link as={`/posts/${slug}`} href="/posts/[slug]">
               <a className="hover:underline">{title}</a>
@@ -28,7 +28,7 @@ export default function HeroPost({
           </div>
           
         </div>
-        <div className='bg-pink-100 p-6'>
+        <div className='bg-pink-200 p-6'>
           <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
           {author && <Avatar name={author.name} picture={author.picture} />}
         </div>

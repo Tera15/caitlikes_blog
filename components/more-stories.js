@@ -3,7 +3,11 @@ import PostPreview from '../components/post-preview'
 export default function MoreStories({ posts }) {
   return (
     <section>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:col-gap-16 lg:col-gap-32 row-gap-20 md:row-gap-32 mb-32 mt-8">
+       <div className ="flex justify-center">
+       <a href="/all-posts" className="font-semibold text-xl text-black tracking-tight pt-5 text-center hover:underline">Recent Posts</a>
+       </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 md:col-gap-16 lg:col-gap-32 row-gap-20 md:row-gap-32 mb-32">
+       
         {posts.map((post) => (
           <PostPreview
             key={post.slug}
